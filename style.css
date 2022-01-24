@@ -1,0 +1,51 @@
+body{
+    font-family: 'Outfit', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+.first-part{
+    display:flex;
+}
+.color{
+    color:tomato;
+}
+h1{
+    font-size: 40px;
+    font-weight: 1300;
+}
+h5{
+    font-weight:300;
+}
+.section-one{
+    width:50%;
+    padding-left: 10%;
+}
+.section-one img{
+    width:35%;
+}
+#line{
+    border-left: 4px solid ;
+    border-image:linear-gradient(purple, cyan);
+    border-image-slice: 1;
+    padding-left: 7px;
+    height: 140px;
+}
+.button{
+    text-decoration:none;
+    background-image:linear-gradient(cyan, purple);
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-right: 30px;
+    padding-left:30px;
+    color:black;
+    font-weight: 900;
+    border-radius:7px;
+}
+
+.bgi{
+    background-image:url(images/shapes/shape-1.png);
+    background-repeat:no-repeat;
+    background-size:200px;
+    background-position-x:left;
+   
+}
