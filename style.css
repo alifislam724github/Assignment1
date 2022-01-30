@@ -1,6 +1,7 @@
 body{
     font-family: 'Outfit', sans-serif;
 font-family: 'Roboto Slab', serif;
+margin-left:120px;
 }
 
 .first-part{
@@ -49,3 +50,72 @@ h5{
     background-position-x:left;
    
 }
+.middle{
+    text-align:center;
+    font-weight:bold;
+}
+.second-part{
+    display:flex;
+    padding-right:300px;
+    padding-left:120px;
+}
+.goals{
+    background-color:rgba(205, 230, 224, 0.911);
+    height:35%;
+    width:30%;
+    border-radius:10px;
+    padding:10px;
+    margin:10px;
+    margin-left:50px;
+    margin-bottom:80px;
+}
+.goals img{
+    width:33%;
+}
+
+.missions{
+    background-color:rgba(221, 190, 221, 0.918);
+    height:35%;
+    width:30%;
+    border-radius:10px;
+    padding:10px;
+    margin: 10px;
+    margin-left:50px;
+    margin-bottom:80px;
+    
+}
+.missions img{
+    width:33%;
+}
+.achievments{
+    background-color:rgba(224, 204, 160, 0.945);
+    height:35%;
+    width:30%;
+    border-radius:10px;
+    padding:10px;
+    margin:10px;
+    margin-left:50px;
+    margin-bottom:80px;
+}
+.achievments img{
+    width:33%;
+}
+.third-part{
+    display:flex;
+
+}
+.section-three-left{
+width:50%;
+
+margin-left:180px;
+}
+.section-three-left img{
+    width:60%;
+}
+.section-three-right{
+    width:50%;
+    margin-left: -150px;
+    margin-right:270px;
+    
+}
+
